@@ -1,0 +1,32 @@
+{
+	"name": "clusterXXX",
+	"version": "0.1.0",
+	"description": "Distributed computing for Node.js",
+	"keywords": [
+		"grid",
+		"cluster"
+	],
+	"homepage": "https://github.com/sgmonda/stdio",
+	"license": "MIT",
+	"main": "main.js",
+	"author": {
+		"name": "Sergio Garcia Mondaray <sgmonda@gmail.com> (http://www.sgmonda.com)"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sgmonda/stdio"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"jasmine-node": "1.14.2",
+		"jshint": "2.5.1"
+	},
+	"engines": {
+		"node": "*"
+	},
+	"readmeFilename": "readme.md",
+	"scripts": {
+		"jshint": "jshint main.js tests",
+		"test": "jasmine-node --matchall tests/"
+	}
+}
